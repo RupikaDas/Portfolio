@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #fff;
+}
+
+#wallpaper{
+    background: url('background.jpeg') no-repeat center center/cover;
+}
+
+header {
+    background-color: #acccda7c;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#about-me {
+    padding: 80px;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #2424252a;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.container.left {
+    left: 0;
+}
+
+.container.right {
+    left: 50%;
+}
+
+.container.left::after,
+.container.right::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #ff007f;
+    border: 4px solid white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.container.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 50px;
+    position: relative;
+    border-radius: 6px;
+}
+
+.experience-item {
+    background-color: #c6acc4;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.certification-item{
+    background-color: #cde3b5;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.certification-item {
+    min-width: 300px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 212, 172);
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff007f;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e60073;
+}
+
+.subheading1{
+    padding: 20px;
+    background-color: #daacc3;
+    color: #fff;
+    text-align: center;
+}
+
+.content1 {
+    padding: 50px;
+    position: relative;
+    border-radius: 6px;
+    background-color: #daacc3;
+}
+
+.subheading2{
+    padding: 20px;
+    background-color: #c6acc4;
+    color: #fff;
+    text-align: center;
+}
+
+.subheading3{
+    padding: 20px;
+    background-color: #cde3b5;
+    color: #fff;
+    text-align: center;
+}
+
+.subheading4{
+    padding: 20px;
+    background-color: #e3dfb5;
+    color: #fff;
+    text-align: center;
+}
+#education{
+    background-color: #f5d9e7;
+}
+
+#resumebtn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e3dfb5;
+    color: white;
+    cursor: pointer;
+}
+
+#submitbtn{
+    background-color: rgb(233, 212, 172);
+}
+
+.resume{
+    float: left;
+}
+
+a::before{
+    color: #fff;
+}
